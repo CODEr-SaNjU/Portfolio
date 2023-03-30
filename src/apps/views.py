@@ -4,6 +4,6 @@ from django.http import HttpResponse
 
 
 def main_func(request):
-    return HttpResponse("<h1> welcome to this main page ")
+    return render(request, 'main.html')
 
 
