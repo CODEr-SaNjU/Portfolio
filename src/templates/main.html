@@ -5,14 +5,20 @@
   {% load bootstrap5 %}
   {% bootstrap_css %}
   {% load static %}
+  <link rel='stylesheet' href="{% static 'css/main.css' %}">
+
   {% bootstrap_javascript %}
 </head>
 <body>
+  {% include "header.html" %}
 
 <div class="container">
-    {% include "header.html" %}
-    
     {% block content %}
+    {% include "about_me.html"%}
+  
+    {% include "projects.html"%}
+  
+    {% include "contact.html"%}
     {% endblock %}
 </div>
 {% include "footer.html"%}

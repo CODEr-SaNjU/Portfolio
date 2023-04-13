@@ -1,0 +1,33 @@
+.footer-side{
+    background-color: black;
+    height: 100px;
+    color: rgba(255, 249, 249, 0.835);
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+}
+.footer-left-side{
+    float: left;
+}
+.footer-right-side{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.mr-4 {
+    margin-right: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+   
+}
+.footer-item{
+    /* display: inline-block;  */
+    width: 55px; /* Set the width to 15 pixels */
+    height: 55px;
+}

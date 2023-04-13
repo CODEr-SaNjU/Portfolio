@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.about-me{
+    padding-top: 95px;
+    margin-left: 0px;
+}
+.image-side{
+    float: left;
+    margin-right: 45px;
+    display: flex;
+}
+.image-side img{
+    width: 451px;
+    height: 501px;
+    /* border-radius: 100%; */
+    
+}
+.content-side{
+    font-family: 'Ubuntu', sans-serif;
+}
+.about-user{
+    width: 155%;
+}
+.about-user .first-part{
+    text-indent: 105px
+}
